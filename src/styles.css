@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+body {
+  /* background: grey; */
+}
+
+.filters-panel {
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 400px;
+}
+
+.workflow-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.workflow-filter input {
+  height: 25px;
+}
+
+.diagram-panel {
+  border: 1px solid black;
+  flex-grow: 1;
+}
+
+.diagram-section {
+  position: relative;
+  display: flex;
+  width: 550px;
+}
+
+.diagram-canvas {
+  margin: 20px;
+  height: 320px;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-state {
+  top: 80px;
+  left: 180px;
+  position: absolute;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlays-panel {
+  top: 80px;
+  left: 0px;
+  position: absolute;
+  margin: 20px;
+  height: 100px;
+  width: 430px;
+  background: blue;
+  color: white;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlays-canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  border: 1px solid black;
+  width: 790px;
+}
+
+.header-metrics {
+  display: flex;
+}
+
+.header-metrics li {
+  margin: 0 10px;
+  list-style-type: none;
+}
