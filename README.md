@@ -26,14 +26,20 @@ Dependencies:
 ## Regular Components
 User focused components.
 
+### Header 
+shows metrics which are loaded globally and polled in regular intervalls.
+
+Dependencies: 
+* dataManager
+  * subscribed to fetched data. 
+
+
 ### Filter 
 Allows user to enter workflow name. 
 
 Dependencies: 
 * dataManager
   * publishes new workflow name
-
-
 
 ### Diagram
 Shows diagram based on workflow name. 
